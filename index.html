@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <script src="https://kit.fontawesome.com/b06a377e67.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index.css">
     
 </head>
 <body>
@@ -27,7 +28,7 @@
     <!-- HOME -->
     <section id="home">
         <div>
-            <img src="/img/" class="image" alt="#">
+            <img src="/img/IMG20230728193812-fotor-bg-remover-20230728223355 (1).png" class="image" alt="#">
         </div>
         <div class="name">
             <h1 id="user-detail-name">
@@ -62,7 +63,7 @@
         <div class="skills-card">
             <div class="skills-card-name  bar">CSS
             </div>
-            <div class="skills-card-img name"><img src="img/css.jpeg" alt=""></div>
+            <div class="skills-card-img name"><img src="img/css.png" alt=""></div>
             
         </div>
 
@@ -70,56 +71,56 @@
             <div class="skills-card-name  bar"> HTML
 
             </div>
-            <div class="skills-card-img name"><img src="img/html.jpeg" alt=""></div>
+            <div class="skills-card-img name"><img src="img/html.png" alt=""></div>
         </div>
 
         <div class="skills-card ">
             <div class="skills-card-name  bar">JavaScript
 
             </div>
-            <div class="skills-card-img name"><img src="img/js.jpeg" alt=""></div>
+            <div class="skills-card-img name"><img src="img/js.png" alt=""></div>
         </div>
 
         <div class="skills-card">
             <div class="skills-card-name  bar">JAVA
 
             </div>
-            <div class="skills-card-img name"><img src="img/java.jpeg" alt=""></div>
+            <div class="skills-card-img name"><img src="img/java.png" alt=""></div>
         </div>
 
         <div class="skills-card">
             <div class="skills-card-name  bar">spring
 
             </div>
-            <div class="skills-card-img name"><img src="img/spring.jpeg" alt=""></div>
+            <div class="skills-card-img name"><img src="img/spring.png" alt=""></div>
         </div>
 
         <div class="skills-card">
             <div class="skills-card-name  bar"> MySQL
 
             </div>
-            <div class="skills-card-img name"><img src="img/Mysql.jpeg" alt=""></div>
+            <div class="skills-card-img name"><img src="img/sql.png" alt=""></div>
         </div>
 
         <div class="skills-card">
             <div class="skills-card-name bar"> Netlify
 
             </div>
-            <div class="skills-card-img name"><img src="img/netlify.jpeg" alt=""></div>
+            <div class="skills-card-img name"><img src="img/netlify.png" alt=""></div>
         </div>
 
         <div class="skills-card">
             <div class="skills-card-name  bar">Git
 
             </div>
-            <div class="skills-card-img name"><img src="img/git.jpeg" alt=""></div>
+            <div class="skills-card-img name"><img src="img/git.png" alt=""></div>
         </div>
 
         <div class="skills-card">
             <div class="skills-card-name  bar"> Hibernate
 
             </div>
-            <div class="skills-card-img name"><img src="img/hibernate-interview-questions-logo.webp" alt=""></div>
+            <div class="skills-card-img name"><img src="img/hibernate.png" alt=""></div>
         </div>
 
     </section>
@@ -135,7 +136,7 @@
          <!-------------------------------------------------- PROJECT 5 ---------------------------------------------------->
          <div class="project-card">
             <p class="project-description">SweetsDelight - Online Sweets & Bakery Store </p>
-            <img src="img/masaibuild - teamiply.png" alt="">
+            <img src="img/sweet.png" alt="">
             <div class="desc">SweetDelight is an online Sweets and Bakery store that allows customers to browse through various Sweets & bakery products and place orders. 
                 The project is implemented using Spring Boot and provides RESTful APIs for managing products, categories, customers, carts, and orders. 
                 The application is designed to be user-friendly and secure, with different functionalities available for administrators and customers. </div>
@@ -165,7 +166,7 @@
                 <p class="project-github-link"><a href="https://github.com/subir701/mucho-tent-9336"><i
                             class="fa-brands fa-github"></i></a></p>
                 <p class="project-deployed-link"><a href="https://drive.google.com/file/d/1jywtkDEu6-ptnNkF9QJQ9cZLL0O5qxBi/view"> 
-                    Live Demonstration</a>
+                  Deployed link  </a>
                 </p>
             </div>
 
@@ -175,7 +176,7 @@
 
          <div class="project-card">
             <p class="project-description">Crime Information Management System</p>
-            <img src="img/masaibuild - teamiply.png" alt="">
+            <img src="img/crime.png" alt="">
             <div class="desc">A Crime Information Management System is a digital solution that assists law enforcement and the public in effectively managing and analyzing criminal incidents.
                  Its key features include adding new crimes and criminals, linking crimes to specific individuals, 
                  retrieving crime and criminal details by name or area, and offering two access levels: administrative for system management and general public for limited information retrieval. Notably, the system enhances crime tracking, aids investigations, and supports community safety efforts by allowing seamless management of crime-related data. </div>
@@ -195,7 +196,7 @@
 
         <div class="project-card">
             <p class="project-description">Clone of Famous Footwear </p>
-            <img src="img/portifolio1.png" alt="">
+            <img src="img/famous footwear.png" alt="">
             <div class="desc">Famous Footwear is a major Indian largest footwear retailer e-commerce company.</div>
             <title class="project-title">Famous Footwear</title>
             <h3 class="project-tech-stack">HTML | CSS | JavaScript</h3>
@@ -273,4 +274,53 @@
         
     
 </body>
+
+<script>
+
+
+    // ----------------------------------------navbar----------------------------------------
+    const toggleButton = document.getElementsByClassName('menubar')[0]
+    const navbarLinks = document.getElementsByClassName('nav-menu')[0]
+
+    toggleButton.addEventListener('click', () => {
+        navbarLinks.classList.toggle('active')
+    })
+
+    // ---------------------------resume open----------------------------------
+    document.getElementById('resume-link-1').addEventListener("click", () => {
+        window.location.assign("https://drive.google.com/file/d/15s3_7CQmmxGgbzc--9IOrQ-NQj93L70B/view?usp=sharing", "_blank");
+    })
+
+    document.getElementById('resume-link-2').addEventListener("click", () => {
+        window.location.assign("https://drive.google.com/file/d/15s3_7CQmmxGgbzc--9IOrQ-NQj93L70B/view?usp=sharing", "_blank");
+    })
+
+// ---------------------------resume open----------------------------------
+
+
+
+
+
+/* --------------------------------------------------GITHUB------------------------------------------------------ */
+
+let arr = ["https://github-readme-streak-stats.herokuapp.com/?user=subir701&", "https://github-readme-stats.vercel.app/api/top-langs/?username=subir701", "https://github-readme-stats.vercel.app/api?username=subir701&show_icons=true&locale=en"];
+
+let j=0;
+ function slides2(){
+ document.getElementById("image2").src = arr[j];
+    if (j<arr.length - 1) j++;
+    else j=0;
+}
+setInterval(slides2, 1500);
+
+/* --------------------------------------------------GITHUB------------------------------------------------------ */
+
+
+// var typed = new Typed(".typing" , {
+//     strings: [""  ,"Problem Solver" ,"Continuous Learner" ,"Java Backend Developer" , "Full Stack Web Developer" ] , 
+//     typeSpeed: 100,
+//     BackSpeed: 60,
+//     loop:true
+// })
+</script>
 </html>
