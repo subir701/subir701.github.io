@@ -366,8 +366,13 @@
     border-radius: 10% 20%;
   }
   
-  .contact-child3 {
-    display: block;
+  .contact-child3 a {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-family: system-ui;
+    text-decoration: none;
+    color: rgb(243, 243, 243);
   }
   
   .contact-child4 a {
