@@ -283,3 +283,29 @@
         width: 90%;
     }
 }
+
+/* new added css */
+
+/* Media Query for mid-tier and low-tier phones */
+@media (max-width: 600px) {
+    .project-card {
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .project-description {
+        font-size: 1.2rem;
+    }
+
+    .project-card img {
+        margin: 10px 0;
+    }
+
+    .project-tech-stack {
+        font-size: 0.9rem;
+    }
+
+    .project-github-link, .project-deployed-link {
+        font-size: 0.7rem;
+    }
+}

@@ -229,6 +229,14 @@
     /* margin-top: 100px; */
   }
   
+  #tools {
+    display: grid;
+    width: 80%;
+    margin: 0 auto;
+    grid-template-columns: repeat(5, 1fr);
+    /* margin-top: 100px; */
+  }
+
   .skills-card {
     margin: 2rem;
   }
